@@ -1,6 +1,6 @@
 const delay = ms => {
     // Твой код
-    return new Promise((resolve, reject)=>{
+    return new Promise((resolve)=>{
         setTimeout(()=>{
             const logger = `Resolved after ${ms}`
 
